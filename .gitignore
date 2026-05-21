@@ -1,0 +1,60 @@
+# 编译输出目录
+build/
+dist/
+packaging/
+out/
+cmake-build-*/
+
+# 插件二进制文件
+*.vst3
+*.dll
+*.exe
+*.so
+*.dylib
+*.aaxplugin
+*.component
+
+# 中间文件
+*.obj
+*.o
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.ipch
+
+# JUCE 自动生成的代码
+JuceLibraryCode/
+GeneratedJuceHeader.h
+
+# IDE 相关
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.ide
+*.vcxproj.user
+*.xcuserstate
+*.xcuserdatad
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 备份文件
+*.bak
+*.tmp
+*~
+
+# CMake 生成文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# 日志文件
+*.log
