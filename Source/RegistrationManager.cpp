@@ -129,29 +129,7 @@ bool RegistrationManager::registerWithCode(const juce::String& code)
 bool RegistrationManager::validateRegistrationCode(const juce::String& code) const
 {
     static const std::set<juce::String> validCodes = {
-        "CHORD-REF-2025-VALID",
-        "MERIDIAN-AUDIO-8888",
-        "CR-V1.0-FREE",
-        "HXDXSC-2026-2001001-REGIS",
-        "HXDXSC-2026-2001002-REGIS",
-        "HXDXSC-2026-2001003-REGIS",
-        "HXDXSC-2026-2001004-REGIS",
-        "HXDXSC-2026-2001005-REGIS",
-        "HXDXSC-2026-2001006-REGIS",
-        "HXDXSC-2026-2001007-REGIS",
-        "HXDXSC-2026-2001008-REGIS",
-        "HXDXSC-2026-2001009-REGIS",
-        "HXDXSC-2026-2001010-REGIS",
-        "HXDXSC-2026-2001011-REGIS",
-        "HXDXSC-2026-2001012-REGIS",
-        "HXDXSC-2026-2001013-REGIS",
-        "HXDXSC-2026-2001014-REGIS",
-        "HXDXSC-2026-2001015-REGIS",
-        "HXDXSC-2026-2001016-REGIS",
-        "HXDXSC-2026-2001017-REGIS",
-        "HXDXSC-2026-2001018-REGIS",
-        "HXDXSC-2026-2001019-REGIS",
-        "HXDXSC-2026-2001020-REGIS"
+        //暂时清空
     };
     
     juce::String trimmed = code.trim();
